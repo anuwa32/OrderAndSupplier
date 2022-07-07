@@ -1,0 +1,401 @@
+@charset "ISO-8859-1";
+
+ul.m{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	
+	
+}
+
+ul.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.com
+{
+	position:absolute;
+	top:130px;
+	left:76%;
+	font-size: 20px;
+	font-style: italic;
+	font-family: sans-serif;
+	color: #404040;
+}
+
+.insbn
+{
+	position: absolute;;
+	top: 120px;
+	left:92%;
+}
+
+
+.insbn input
+{
+	height: 40px;
+	width:110px;
+	border-radius: 8px;
+	border:4px solid #808080;
+}
+.insbn input:hover
+{
+	outline:none;
+	transition:0.25s;
+	transform:scale(1.1);
+}
+
+
+li.menu{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: right;
+	padding: 14px 16px;
+}
+
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	color: rgba(0,0,0,.8);
+	text-decoration:none;
+}
+
+
+li a:hover{
+	background-color:grey;
+	text-decoration:none;
+}
+
+.logo{
+	width: 30%;
+	height: 200px;
+	text-align: left;
+	
+}	
+	
+.image{
+	width: 30%;
+	height: 200px;
+	text-align: left;
+	float: left;
+}
+
+.first{
+	width: 200px;
+	height: 100px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.second{
+	height: 100px;
+	width: 200px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.third{
+	
+	height: 100px;
+	width: 200px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.third p
+{
+	color:rgb(13, 13, 13);
+}
+
+.bot1{
+	text-align:center;
+	font-family:"Gill Sans", sans-serif;
+	font-size:18px;
+	
+	border: 4px solid #14D7DA;
+	border-radius: 8px;
+}
+
+.bot2{
+	text-align:center;
+	font-family:"Gill Sans", sans-serif;
+}
+
+.bot3{
+	text-align:center;
+	font-family:"Gill Sans", sans-serif;
+	font-size:20px;
+}
+
+.bot{
+	text-align:center;
+	font-family:"Gill Sans", sans-serif;
+	font-size:18px;
+}
+
+
+
+.head{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FA0000;
+}
+
+.para{
+	font-family: "Gill Sans", sans-serif;
+	font-size:20px;
+}
+
+body{
+	background-image: url("../images/b08.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	
+}
+.blur{
+	padding:45px;
+	background:rgba(1717 , 1717, 1717, 0.7);
+	border:2px solid #808080;
+	
+}
+.down{
+	height:220px;
+	width:30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:4px solid #808080;
+}
+.down1{
+	position:absolute;
+	top:2610px;
+	height:170px;
+	width:22%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:35%;
+
+}
+.down2{
+	position:absolute;
+	top:2620px;
+	height:160px;
+	width:20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:62%;
+
+}
+.down3{
+	position:absolute;
+	top:2420px;
+	height:180px;
+	width:20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:70%;
+
+}
+
+.down4{
+	position:absolute;
+	top:2420px;
+	height:180px;
+	width:25%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:37%;
+
+}
+.down5{
+	position:absolute;
+	top:2420px;
+	height:130px;
+	width:20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:5%;
+
+}
+
+.down5{
+	position:absolute;
+	top:2420px;
+	height:130px;
+	width:20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:5%;
+
+}.down6{
+	position:absolute;
+	top:2630px;
+	height:140px;
+	width:15%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:4px solid #808080;
+	background: transparent;
+	left:84%;
+
+}
+
+
+
+
+
+
+.flip-box {
+  background-color: transparent;
+  width: 350px;
+  height: 450px;
+  border: 1px solid transparent;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: transparent;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flip-box-back {
+  background-color: #F2F3F4;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.slideshow-container
+{
+	border:4px solid #808080;
+}
+
+
+
+
+.row {
+  display: flex;
+  margin-left:100px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  
+  
+}
+
+
+
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family:cursive;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family:Stencil Std, fantasy;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.new{
+	height:550px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

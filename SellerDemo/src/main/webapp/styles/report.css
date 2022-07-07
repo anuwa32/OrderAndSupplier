@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+.background{
+	
+	top:0px;
+}
+.img{
+	height:700px;
+	width:700px;
+	position: absolute;
+	top: -200px;
+	left: 500px;
+
+	
+}
+
+img {
+	
+	color:black;
+}
+
+
+.form{
+	position:relative;
+	left:70px;
+	width:90%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	border-top-left-radius: 70px;
+	font-family: arial, sans-serif;
+	font-size:28px;
+	border-bottom-right-radius: 70px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #000;
+}
+
+#submit{
+	 margin-left: 0%;
+	 width:15%;
+	 font-size:large;
+	 background-color: #32C81A;
+	 height:40px;
+	 border:none;
+	 color:white;
+	 border-radius:8px;
+	 cursor:pointer;
+	 transition: 0.5s;
+	 
+}	
+/*
+#submit:hover {
+	box-shadow: 0 10px 15px  #a2ff42;
+	
+	
+}
+
+*/
+
+.search{
+	position:absolute;
+	top:110px;
+	left:10%;
+	border-style:solid;
+    text-align:center;
+    border-color: #32C81A;
+    border-radius:8px 8px 8px 8px;
+    width: 15%;
+    height: 23px;
+    font-size: 15px;
+    border-width: 1px;
+    margin-right: 70%;
+    margin-top: 10px;
+    
+}
+
+.search1{
+	position:absolute;
+	top:120px;
+	left:26%;
+	border-style:solid;
+    text-align:center;
+    border-color: #32C81A;
+    border-radius:8px 8px 8px 8px;
+    width: 15%;
+    height: 23px;
+    font-size: 15px;
+    border-width: 1px;
+    margin-right: 30%;
+   
+    
+}
+
+#sub{
+	border-radius:10px;
+	width:60px;
+	background-color:#32C81A;
+	margin-left:-20%;
+	margin-top:-2.5%;
+	border:none;
+	color:white;
+	height:30px;
+	transition:0.5s;
+	position:absolute;
+	left:62%;
+}
+#sub:hover {
+	box-shadow: 0 5px 15px  #a2ff42;
+	
+	
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+td, th {
+    border: 1px solid #808080;
+    text-align: center;
+    padding: 8px;
+
+}
+
+
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+
+
+.print{
+	
+	position: absolute;
+	top:520px;
+	left:2%;
+}
+.print input{
+	
+	background-color: white;
+	color:black;
+	height: 25px;
+	width:200%;
+	border-radius: 5px;
+}
+
+
+

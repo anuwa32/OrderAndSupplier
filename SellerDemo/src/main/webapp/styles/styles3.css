@@ -1,0 +1,304 @@
+@charset "ISO-8859-1";
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+
+}
+
+.img{
+	position: absolute;
+	left: 0;
+	right: 80px;
+	top:-275px;
+	height:650px;
+	width:600px;
+	
+	
+
+}
+
+nav a:hover{
+  background-color: #fff;
+  color: #222;
+  padding-left: 4px;
+  padding-right: 4px;
+  transition: 0.5s;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background: url("../images/background1.jpg" );
+  filter: blur(5px);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.9;
+	height: 800px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.updatebox
+{
+	width:500px;
+	padding:20px ;
+	top:100px;
+	left:32.5%;
+	border-top-left-radius: 50px;
+    border-bottom-right-radius: 70px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000;
+	color:	rgb(77, 77, 77);
+	position:absolute;
+    margin-bottom:10px;
+	bottom:20px;
+	font-weight: bold;;
+	background:transparent;
+	
+}
+.updatebox h1
+{
+	color:black;
+	text-align:center;
+	font-style: bold;
+}
+.textbox
+{
+	color:black;
+	margin-top: 5%;
+}
+.textbox input
+{
+	margin-left:18px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox1
+{
+	color:black;
+	
+}
+.textbox1 input
+{
+	margin-left:30px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox2
+{
+	color:black;
+	
+}
+
+.textbox2 input
+{
+	margin-left:30px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox3
+{
+	color:black;
+	
+}
+.textbox3 input
+{
+	margin-left:62px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox4
+{
+	color:black;
+	
+}
+.textbox4 input
+{
+	margin-left:3px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox5
+{
+	color:black;
+	
+}
+.textbox5 input
+{
+	margin-left:48px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox6
+{
+	color:black;
+	
+}
+.textbox6 input
+{
+	margin-left:12px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox7
+{
+	color:black;
+	
+}
+
+.textbox7 input
+{
+	margin-left:53px;
+	font-family:Arial;
+	width: 40%;
+}
+.textbox8
+{
+	color:black;
+	
+} 
+.textbox8 input
+{
+	margin-left:27px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox9
+{
+	color:black;
+	
+}
+.textbox9 input
+{
+	margin-left:38px;
+	font-family:Arial;
+	width: 40%;
+}
+.textbutton
+{
+	position: absolute;
+	top:600px;
+	left:10%
+}
+
+.textbutton input
+{
+	color:white;
+	width:150%;
+	height:30px;
+	border-radius: 5px;
+	background-color: #0080ff;
+}
+.textbutton:hover{
+	
+	outline:none;
+	transition:0.5s;
+	transform:scale(1.1);
+}
+#update{
+	border-style:solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: black;
+    background-color: transparent;
+    width: 40%;
+    height: 30px;
+    font-size: 15px;
+    outline: none;
+}

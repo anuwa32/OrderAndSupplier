@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+body
+{
+	margin:0;
+	padding:0;
+	font-family:sans-sefif;
+	background-size:cover;
+	background: url("../images/b8.jpg" );
+	
+	
+}
+
+.rateusbox
+{
+	width:500px;
+	padding:20px ;
+	top:100px;
+	left:32.5%;
+	/*background:linear-gradient(to right, #000000, #434343);*/
+	color:	rgb(77, 77, 77);
+	position:absolute;
+    margin-bottom:50px;
+	bottom:100px;
+	border:4px solid #0099cc;
+	background:transparent;
+	border-radius: 10px;
+}
+
+.rateusbox h1
+{
+	text-align:center;
+}
+.ratebox lable
+{
+	font-size: 50px;
+}
+.textbutton
+{
+	position: absolute;
+	top:350px;
+	left:30%
+}
+.textbutton input
+{
+	height:30px;
+	width:300%;
+	border-radius: 5px;
+	border:2px solid #0099cc;
+}
+
+.textbox input
+{
+	margin-left:100px;
+	font-family:Arial;
+	width:40%;
+	height:20px;
+	position:absolute;
+	top:238px;
+} 
+
+.textbox label
+{
+	size:20px;
+}
+
+
+
+.rsbn
+{
+	position: absolute;;
+	top: 550px;
+	left:80%;
+}
+.rsbn input
+{
+	height: 40px;
+	width:100px;
+	border-radius: 5px;
+	border:4px solid #0099cc;
+}
+.rsbn input:hover
+{
+	outline:none;
+	transition:0.25s;
+	transform:scale(1.1);
+}

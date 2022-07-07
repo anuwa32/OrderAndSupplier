@@ -1,0 +1,300 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.img{
+	position: absolute;
+	left: 0;
+	right: 80px;
+	top:-275px;
+	height:650px;
+	width:600px;
+	
+	
+
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+
+}
+
+nav a:hover{
+  background-color: #fff;
+  color: #222;
+  padding-left: 4px;
+  padding-right: 4px;
+  transition: 0.5s;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background: url("../images/background1.jpg" );
+  filter: blur(5px);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.9;
+	height: 1000px;
+}
+.content-area h2 {
+	font-family: poppins;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+}
+
+#upda{
+	
+	border-style:solid;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: black;
+	background-color: transparent;
+	width:40%;
+	font-size: 15px;
+	outline:none;
+}
+
+
+
+
+
+.orderbox
+{
+	width:600px;
+	padding:20px ;
+	top:80px;
+	left:30%;
+	
+	color:rgb(77, 77, 77);
+	position:absolute;
+    margin-bottom:20px;
+	bottom:20px;
+	border-top-left-radius: 50px;
+    border-bottom-right-radius: 70px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000;
+	background:transparent;
+	
+	font-family:Arial;
+	
+}
+.orderbox h1
+{
+	color:black;
+	text-align:center;
+}
+
+.textbox
+{
+	
+	color:black;
+	font-size:20px;
+	margin-top: -1%;
+}
+.textbox input
+{
+	margin-left:68px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox1{
+	margin-top:-15px;
+	color:black;
+	font-size:20px;
+}
+.textbox1 input
+{
+	margin-left:98px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox2{
+	margin-top:-15px;
+	color:black;
+	font-size:20px;
+}
+.textbox2 input
+{
+	margin-left:91px;
+	font-family:Arial;
+	width: 40%;
+}
+.textbox3{
+	margin-top:-15px;
+	margin-left:-1px;
+	color:black;
+	font-size:20px;
+} 
+.textbox3 input
+{
+	margin-left:16px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox4{
+	margin-top:-15px;
+	color:black;
+	font-size:20px;
+}
+.textbox4 input
+{
+	margin-left:58px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox5{
+	margin-top:-15px;
+	margin-left:2px;
+	color:black;
+	font-size:20px;
+}
+.textbox5 input
+{
+	margin-left:79px;
+	
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox6{
+	margin-top:-15px;
+	margin-left:-50px;
+	color:black;
+	font-size:20px;
+}
+.textbox6 input
+{    
+	
+	margin-left:50px;
+	font-family:Arial;
+	width: 30%;
+} 
+.textbox7{
+	margin-top:-15px;
+	color:black;
+	font-size:20px;
+}
+.textbox7 input
+{
+	margin-left:40px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox8{
+	margin-top:-15px;
+	color:black;
+	font-size:20px;
+}
+.textbox8 input
+{
+	margin-left:60px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox9{
+	margin-top:-15px;
+	margin-left:-18px;
+	color:black;
+	font-size:20px;
+}
+.textbox9 input
+{
+	margin-left:50px;
+	font-family:Arial;
+	width: 40%;
+} 
+.textbox10{
+	margin-top:-15px;
+	color:black;
+	font-size:20px;
+}
+.textbox10 input
+{
+	margin-left:60px;
+	font-family:Arial;
+	width: 40%;
+} 
+
+.textbutton
+{
+	position: absolute;
+	top:750px;
+	left:10%;
+}
+.textbutton input
+{
+	
+	color:white;
+	width:195%;
+	height:30px;
+	border-radius: 5px;
+	background-color: #32C81A;
+}
+
